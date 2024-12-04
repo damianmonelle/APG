@@ -6,7 +6,7 @@
 
 def calculate_average(numbers):
     """
-    This function takes a list of numbers as input and returns the average of those numbers.
+    Calculate the average of a list of numbers.
 
     :param numbers: List of numbers
     :return: Average of the numbers
@@ -20,7 +20,7 @@ def calculate_average(numbers):
 
 def generate_unique_id(prefix='ID'):
     """
-    This function generates a unique ID with a given prefix.
+    Generate a unique ID with a given prefix.
 
     :param prefix: Prefix for the unique ID
     :return: Unique ID

@@ -8,8 +8,9 @@ def main():
     It will execute the necessary code to achieve the desired functionality.
     """
 
-    # Add your code here
+    # Display a greeting message
     print("Hello, World!")
 
 if __name__ == "__main__":
+    # Call the main function if this script is executed directly
     main()

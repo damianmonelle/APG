@@ -1,6 +1,18 @@
-# Placeholder for CHANGELOG.md
+# CHANGELOG.md
 
-# Add your implementation here.
+## [Unreleased]
 
-// This is where you can add your changes and updates to the project.
-// Make sure to provide detailed comments to explain the purpose of each change.
+### Added
+- Placeholder for CHANGELOG.md
+
+### Changed
+- Refactored and improved code readability
+
+## [Version 1.0.0] - YYYY-MM-DD
+
+### Added
+- Initial implementation of the project
+
+### Changed
+- Improved code structure for better maintainability
+- Enhanced comments for clarity and understanding
