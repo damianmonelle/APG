@@ -1,36 +1,37 @@
-# test_main.py
+# arithmetic_operations.py
 
-# This file contains functions for performing basic arithmetic operations and checking number properties
+"""
+This module contains functions for performing basic arithmetic operations and checking number properties.
+"""
 
-# This function calculates the sum of two numbers
 def calculate_sum(num1, num2):
     """
     Calculate the sum of two numbers
 
     Args:
-    num1 (int): The first number
-    num2 (int): The second number
+    num1 (int or float): The first number
+    num2 (int or float): The second number
 
     Returns:
-    int: The sum of num1 and num2
+    int or float: The sum of num1 and num2
     """
     return num1 + num2
 
-# This function calculates the product of two numbers
+
 def calculate_product(num1, num2):
     """
     Calculate the product of two numbers
 
     Args:
-    num1 (int): The first number
-    num2 (int): The second number
+    num1 (int or float): The first number
+    num2 (int or float): The second number
 
     Returns:
-    int: The product of num1 and num2
+    int or float: The product of num1 and num2
     """
     return num1 * num2
 
-# This function determines if a number is even
+
 def is_even(num):
     """
     Check if a number is even
@@ -43,7 +44,7 @@ def is_even(num):
     """
     return num % 2 == 0
 
-# This function determines if a number is prime
+
 def is_prime(num):
     """
     Check if a number is prime

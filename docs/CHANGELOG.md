@@ -5,14 +5,16 @@
 ### Added
 - Placeholder for CHANGELOG.md
 
-### Changed
-- Refactored and improved code readability
+### Improved
+- Code refactoring and readability enhancement
 
 ## [Version 1.0.0] - YYYY-MM-DD
 
 ### Added
-- Initial implementation of the project
+- Initial project implementation
 
-### Changed
-- Improved code structure for better maintainability
-- Enhanced comments for clarity and understanding
+### Improved
+- Code structure for better maintainability
+- Commentary for clarity and understanding
+
+Instructions: Adhere to general best practices and make continuous improvements.
