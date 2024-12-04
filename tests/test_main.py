@@ -4,35 +4,35 @@
 This module contains functions for performing basic arithmetic operations and checking number properties.
 """
 
-def calculate_sum(num1, num2):
+def add_numbers(num1: float, num2: float) -> float:
     """
     Calculate the sum of two numbers
 
     Args:
-    num1 (int or float): The first number
-    num2 (int or float): The second number
+    num1 (float): The first number
+    num2 (float): The second number
 
     Returns:
-    int or float: The sum of num1 and num2
+    float: The sum of num1 and num2
     """
     return num1 + num2
 
 
-def calculate_product(num1, num2):
+def multiply_numbers(num1: float, num2: float) -> float:
     """
     Calculate the product of two numbers
 
     Args:
-    num1 (int or float): The first number
-    num2 (int or float): The second number
+    num1 (float): The first number
+    num2 (float): The second number
 
     Returns:
-    int or float: The product of num1 and num2
+    float: The product of num1 and num2
     """
     return num1 * num2
 
 
-def is_even(num):
+def is_even(num: int) -> bool:
     """
     Check if a number is even
 
@@ -45,7 +45,7 @@ def is_even(num):
     return num % 2 == 0
 
 
-def is_prime(num):
+def is_prime(num: int) -> bool:
     """
     Check if a number is prime
 
@@ -61,3 +61,8 @@ def is_prime(num):
         if num % i == 0:
             return False
     return True
+
+# Changes made:
+# 1. Changed function names to more descriptive ones.
+# 2. Added type hints to function signatures and return types for better readability and understanding of the function.
+# 3. Consistent use of float for arithmetic operations to accommodate non-integer inputs.

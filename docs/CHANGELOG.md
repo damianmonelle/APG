@@ -3,18 +3,18 @@
 ## [Unreleased]
 
 ### Added
-- Placeholder for CHANGELOG.md
+- Introduced placeholder for CHANGELOG.md
 
 ### Improved
-- Code refactoring and readability enhancement
+- Enhanced code refactoring and readability
 
 ## [Version 1.0.0] - YYYY-MM-DD
 
 ### Added
-- Initial project implementation
+- Implemented initial project
 
 ### Improved
-- Code structure for better maintainability
-- Commentary for clarity and understanding
+- Optimized code structure for increased maintainability
+- Added detailed comments for better clarity and understanding
 
-Instructions: Adhere to general best practices and make continuous improvements.
+Note: Always adhere to the general best practices and strive for continuous improvements.
