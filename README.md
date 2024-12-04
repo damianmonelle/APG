@@ -18,7 +18,7 @@ Enhancements have been made to project requirements, main script, utility functi
 
 ### Update: December 4, 2024 - 01:20:20
 
-**Additions:**
+**New Additions:**
 
 - `src/utils.py`: Added new utility functions.
 - `resources/image.png`: Added new image resource.
@@ -27,7 +27,7 @@ Enhancements have been made to project requirements, main script, utility functi
 - `tests/test_app.py`: Added new test cases for the application script.
 
 **Summary:**
-Added new resources, utility functions, application script, and test cases to enhance the user experience.
+New resources, utility functions, application script, and test cases have been added to enhance the user experience.
 
 ### Update: December 4, 2024 - 02:48:56
 
@@ -43,11 +43,11 @@ Added new resources, utility functions, application script, and test cases to en
 - `tests/test_main.py`
 
 **Summary:**
-Removed unnecessary files for a more streamlined project structure.
+Unnecessary files have been removed for a more streamlined project structure.
 
 ### Update: December 4, 2024 - 03:36:21
 
-**Additions:**
+**New Additions:**
 
 - .gitignore file
 - docs/ directory
@@ -57,9 +57,9 @@ Removed unnecessary files for a more streamlined project structure.
 - tests/ directory
 
 **Summary:**
-Added new files and directories to improve organization and efficiency.
+New files and directories have been added to improve organization and efficiency.
 
-## Update: December 4, 2024 - 05:00:07
+### Update: December 4, 2024 - 05:00:07
 
 **Updates:**
 
@@ -70,9 +70,9 @@ Added new files and directories to improve organization and efficiency.
 - test_main.py file
 
 **Summary:**
-Made various updates and improvements to the project's files and documentation.
+Various updates and improvements have been made to the project's files and documentation.
 
-## Update: December 4, 2024 - 05:06:51
+### Update: December 4, 2024 - 05:06:51
 
 **Updates:**
 
@@ -83,11 +83,11 @@ Made various updates and improvements to the project's files and documentation.
 - tests/test_main.py
 
 **Summary:**
-Made various updates and improvements to the project's files and documentation.
+Various updates and improvements have been made to the project's files and documentation.
 
 We invite you to explore the project and its updates!
 
-## Update: December 4, 2024 - 05:12:48
+### Update: December 4, 2024 - 05:12:48
 
 **Updates:**
 
@@ -98,15 +98,33 @@ We invite you to explore the project and its updates!
 - tests/test_main.py
 
 **Summary:**
-Made various updates and improvements to the project's files and documentation.
-## Changelog (2024-12-04 05:21:07)
-## Changelog
-### Date: [Date]
+Various updates and improvements have been made to the project's files and documentation.
 
+### Changelog: December 4, 2024 - 05:21:07
+
+**Updates:**
+
+- README.md
+- docs/CHANGELOG.md
+- main.py
+- src/utils.py
+- tests/test_main.py
+
+**Summary:**
+Changes have been made to the project's README, changelog, main script, utility functions, and test files.
+
+We encourage you to explore the project and its updates!
+## Changelog (2024-12-04 05:25:23)
+# Changelog
+
+## Date: [insert date here]
+
+### Changes:
 - Updated README.md
 - Updated docs/CHANGELOG.md
 - Updated main.py
 - Updated src/utils.py
 - Updated tests/test_main.py
 
-Summary of changes made to the project's README, changelog, main script, utility functions, and test files.
+### Summary:
+- Various updates and changes were made to the project's README, changelog, main script, utility functions, and test files.

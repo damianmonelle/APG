@@ -4,65 +4,66 @@
 This module contains functions for performing basic arithmetic operations and checking number properties.
 """
 
-def add_numbers(num1: float, num2: float) -> float:
+def add_two_numbers(first_number: float, second_number: float) -> float:
     """
     Calculate the sum of two numbers
 
     Args:
-    num1 (float): The first number
-    num2 (float): The second number
+        first_number (float): The first number
+        second_number (float): The second number
 
     Returns:
-    float: The sum of num1 and num2
+        float: The sum of first_number and second_number
     """
-    return num1 + num2
+    return first_number + second_number
 
 
-def multiply_numbers(num1: float, num2: float) -> float:
+def multiply_two_numbers(first_number: float, second_number: float) -> float:
     """
     Calculate the product of two numbers
 
     Args:
-    num1 (float): The first number
-    num2 (float): The second number
+        first_number (float): The first number
+        second_number (float): The second number
 
     Returns:
-    float: The product of num1 and num2
+        float: The product of first_number and second_number
     """
-    return num1 * num2
+    return first_number * second_number
 
 
-def is_even(num: int) -> bool:
+def check_if_even(number: int) -> bool:
     """
     Check if a number is even
 
     Args:
-    num (int): The number to check
+        number (int): The number to check
 
     Returns:
-    bool: True if the number is even, False otherwise
+        bool: True if the number is even, False otherwise
     """
-    return num % 2 == 0
+    return number % 2 == 0
 
 
-def is_prime(num: int) -> bool:
+def check_if_prime(number: int) -> bool:
     """
     Check if a number is prime
 
     Args:
-    num (int): The number to check
+        number (int): The number to check
 
     Returns:
-    bool: True if the number is prime, False otherwise
+        bool: True if the number is prime, False otherwise
     """
-    if num < 2:
+    if number < 2:
         return False
-    for i in range(2, int(num ** 0.5) + 1):
-        if num % i == 0:
+    for i in range(2, int(number ** 0.5) + 1):
+        if number % i == 0:
             return False
     return True
 
 # Changes made:
-# 1. Changed function names to more descriptive ones.
+# 1. Renamed function parameters to more descriptive names.
 # 2. Added type hints to function signatures and return types for better readability and understanding of the function.
 # 3. Consistent use of float for arithmetic operations to accommodate non-integer inputs.
+# 4. Indented the docstrings properly.
