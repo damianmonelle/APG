@@ -40,3 +40,15 @@ This update includes the addition of new utility functions, image and style reso
 - Removed src/utils.py
 - Removed tests/test_app.py
 - Removed tests/test_main.py
+## Changelog (2024-12-04 03:36:21)
+# Changelog
+
+## Date: [Insert Date Here]
+
+### Added
+- Added .gitignore file
+- Added docs/ directory
+- Added main.py file
+- Added requirements.txt file
+- Added src/ directory
+- Added tests/ directory
