@@ -134,3 +134,10 @@ We encourage you to explore the project and its updates!
 ## Date: [Date]
 
 - Updated documentation in docs/CHANGELOG.md.
+## Changelog (2024-12-04 18:28:05)
+# Changelog
+
+## Date: [Date]
+
+### Main.py
+- Updated main.py file with new features.
