@@ -128,3 +128,9 @@ We encourage you to explore the project and its updates!
 
 ### Summary:
 - Various updates and changes were made to the project's README, changelog, main script, utility functions, and test files.
+## Changelog (2024-12-04 18:25:48)
+# Changelog
+
+## Date: [Date]
+
+- Updated documentation in docs/CHANGELOG.md.

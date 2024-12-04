@@ -1,42 +1,40 @@
-# CHANGELOG.md
+markdown
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
 ### Added
-- Introduced placeholder for CHANGELOG.md
+- Placeholder for CHANGELOG.md
 
-### Improved
-- Enhanced code refactoring and readability
+### Changed
+- Code refactoring and readability
 
-## [Version 1.0.0] - YYYY-MM-DD
-
-### Added
-- Launched initial project implementation
-
-### Improved
-- Optimized code structure for enhanced maintainability
-- Incorporated detailed comments for improved clarity and understanding
-
-Note: Always adhere to the general best practices and strive for continuous improvements. 
-
-## [Version 0.1.0] - YYYY-MM-DD
+## [1.0.0] - YYYY-MM-DD
 
 ### Added
-- Initial project setup and configuration
+- Initial project implementation
 
-### Improved
-- Set up basic project structure for better scalability and maintainability
+### Changed
+- Code structure for enhanced maintainability
+- Detailed comments for improved clarity and understanding
 
-Note: This is the first draft of the project. Expect significant changes and improvements in future versions.
-
-## [Version 0.0.1] - YYYY-MM-DD
+## [0.1.0] - YYYY-MM-DD
 
 ### Added
-- Initial project proposal and concept
+- Project setup and configuration
 
-### Improved
-- Defined project scope and objectives for better clarity
+### Changed
+- Basic project structure for better scalability and maintainability
 
-Note: This is the initial concept of the project. Expect changes as the project evolves.
+## [0.0.1] - YYYY-MM-DD
 
-Instructions: Maintain a consistent format and structure throughout the changelog. Ensure to update the changelog regularly with each new version release or significant changes. Always strive for continuous improvements and adhere to the best practices.
+### Added
+- Project proposal and concept
+
+### Changed
+- Project scope and objectives for better clarity
