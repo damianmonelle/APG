@@ -1,0 +1,2 @@
+# Placeholder for requirements.txt file
+# This file will list all the dependencies required for the project.
