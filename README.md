@@ -5,7 +5,7 @@ Welcome to our project! This README file is designed to provide a comprehensive 
 
 ## Changelog
 
-This section documents all notable changes to this project.
+This section documents all notable changes to this project in a descending order of dates.
 
 ### Update: 2024-12-04
 
@@ -50,39 +50,10 @@ This section documents all notable changes to this project.
 - Updated project documentation and files, including `CHANGELOG.md`.
 - Added new features to `main.py` and `utils.py`.
 
-### Update: YYYY-MM-DD
+### Update: [Insert date here]
 
 #### Changes
 - Updated files: `README.md`, `docs/CHANGELOG.md`, `main.py`, `src/utils.py`, `tests/test_main.py`
 
-### Update: YYYY-MM-DD
-
-#### Changes
-- Updated files: `main.py`, `src/utils.py`
-
-### Update: YYYY-MM-DD
-
-#### Changes
-- Updated files: `main.py`, `src/utils.py`, `tests/test_main.py`
-
-### Update: YYYY-MM-DD
-
-#### Changes
-- Updated files: `main.py`, `test_main.py`
-
-### Update: YYYY-MM-DD
-
-#### Changes
-- Updated files: `README.md`, `docs/CHANGELOG.md`, `main.py`, `src/utils.py`, `tests/test_main.py`
-## Changelog (2024-12-04 23:05:57)
-# Changelog
-
-## Date: [Insert date here]
-
-- Updated README.md
-- Updated docs/CHANGELOG.md
-- Updated main.py
-- Updated refinement_session_log.txt
-- Updated src/utils.py
-
-Summary of changes made to the project's files.
+#### Summary
+- Summary of changes made to the project's files.

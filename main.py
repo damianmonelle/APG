@@ -1,10 +1,11 @@
+python
 def display_welcome_message() -> None:
-    """Displays a welcome message."""
+    """Display a welcome message."""
     print("Hello, World!")
 
-def main() -> None:
-    """Main function to initiate the program."""
+def run_program() -> None:
+    """Run the program."""
     display_welcome_message()
 
 if __name__ == "__main__":
-    main()
+    run_program()
