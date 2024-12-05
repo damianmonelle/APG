@@ -1,4 +1,3 @@
-python
 def welcome() -> None:
     """Displays a welcome message."""
     print("Hello, World!")

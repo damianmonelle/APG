@@ -1,4 +1,3 @@
-python
 import uuid
 from typing import List, Union
 
