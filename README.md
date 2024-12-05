@@ -4,7 +4,7 @@ Welcome to our project! This README file is designed to provide a comprehensive 
 
 ## Changelog
 
-All notable changes to this project are documented in this section. 
+This section documents all notable changes to this project.
 
 ### Update: 2024-12-04
 
@@ -44,53 +44,60 @@ All notable changes to this project are documented in this section.
 
 #### Changes Summary
 - Enhanced project functionality.
-- Enhanced user experience with new resources and scripts.
-- Streamlined project structure.
-- Improved project organization and efficiency.
-- Improved project documentation and files.
-- Updated project documentation and files.
-- Updated `CHANGELOG.md`.
-- Updated `main.py` with new features.
-- Updated `main.py` and `utils.py`.
-
-### Update: [Date]
-
-- Updated README.md
-- Updated docs/CHANGELOG.md
-- Updated main.py
-- Updated src/utils.py
-- Updated tests/test_main.py
+- Improved user experience with new resources and scripts.
+- Streamlined project structure for better organization and efficiency.
+- Updated project documentation and files, including `CHANGELOG.md`.
+- Added new features to `main.py` and `utils.py`.
 
 ### Update: [Date]
 
 #### Changes
-
-- Updated main.py
-- Updated src/utils.py
-
-#### Summary
-
-- Changes were made to main.py and src/utils.py.
+- Updated `README.md`
+- Updated `docs/CHANGELOG.md`
+- Updated `main.py`
+- Updated `src/utils.py`
+- Updated `tests/test_main.py`
 
 ### Update: [Date]
 
-#### Changes:
-- Modified main.py
-- Modified src/utils.py
-- Modified tests/test_main.py
+#### Changes
+- Updated `main.py`
+- Updated `src/utils.py`
 
-#### Summary:
-- Changes were made to main.py, utils.py, and test_main.py files.
+#### Summary
+- Made changes to `main.py` and `src/utils.py`.
+
+### Update: [Date]
+
+#### Changes
+- Modified `main.py`
+- Modified `src/utils.py`
+- Modified `tests/test_main.py`
+
+#### Summary
+- Changes were made to `main.py`, `utils.py`, and `test_main.py` files.
 
 ### Update: [current date]
 
-#### Main Changes:
-- Updated main.py
-- Updated test_main.py
-## Changelog (2024-12-04 22:39:15)
-## Changelog
+#### Main Changes
+- Updated `main.py`
+- Updated `test_main.py`
 
-### Date: [Insert Date Here]
+### Update: [Insert Date Here]
+
+#### Changes
+- Updated `README.md`
+- Updated `docs/CHANGELOG.md`
+- Updated `main.py`
+- Updated `src/utils.py`
+- Updated `tests/test_main.py`
+
+#### Summary of changes
+The `README`, `CHANGELOG`, `main.py`, `utils.py`, and `test_main.py` files have all been updated.
+## Changelog (2024-12-04 22:52:53)
+# Changelog
+
+## Date: [insert date here]
 
 - Updated README.md
 - Updated docs/CHANGELOG.md
@@ -98,4 +105,5 @@ All notable changes to this project are documented in this section.
 - Updated src/utils.py
 - Updated tests/test_main.py
 
-Summary of changes: The README, CHANGELOG, main.py, utils.py, and test_main.py files have all been updated.
+Summary of changes:
+- Changes were made to various files including README, documentation, main script, utility functions, and test files.

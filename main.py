@@ -1,11 +1,8 @@
-python
-def display_welcome_message() -> None:
-    """Prints a welcome message to the console."""
-    print("Hello, World!")
-
+```python
 def main() -> None:
     """Main function to display welcome message."""
-    display_welcome_message()
+    print("Hello, World!")
 
 if __name__ == "__main__":
     main()
+```

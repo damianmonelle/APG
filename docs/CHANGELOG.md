@@ -1,39 +1,39 @@
 # Changelog
 
-This file documents all noteworthy changes made to this project. The structure of this file adheres to the guidelines provided by [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project follows the principles of [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+This document records all significant changes made to this project. The format of this file follows the guidelines provided by [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to the principles of [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## Unreleased
-
-### Added
-- Placeholder for the CHANGELOG.md file
-
-### Changed
-- Refactored code for improved readability
-
-## 1.0.0 - YYYY-MM-DD
+## [Unreleased]
 
 ### Added
-- Initial implementation of the project
+- Added placeholder for the CHANGELOG.md file.
 
 ### Changed
-- Enhanced code structure for better maintainability
-- Added detailed comments for clarity and understanding
+- Refactored code to enhance readability.
 
-## 0.1.0 - YYYY-MM-DD
+## [1.0.0] - YYYY-MM-DD
 
 ### Added
-- Project setup and configuration
+- Implemented the initial version of the project.
 
 ### Changed
-- Improved project structure for scalability and maintainability
+- Enhanced the code structure to improve maintainability.
+- Included detailed comments for better clarity and understanding.
 
-## 0.0.1 - YYYY-MM-DD
+## [0.1.0] - YYYY-MM-DD
 
 ### Added
-- Project proposal and conceptualization
+- Set up and configured the project.
 
 ### Changed
-- Clarified project scope and objectives
+- Improved the project structure for better scalability and maintainability.
+
+## [0.0.1] - YYYY-MM-DD
+
+### Added
+- Proposed and conceptualized the project.
+
+### Changed
+- Clarified the project's scope and objectives.
 
 ### Removed
-- N/A
+- Not applicable.
