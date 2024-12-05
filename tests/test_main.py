@@ -12,10 +12,9 @@ OPERATIONS = {
 }
 
 def perform_operation(operation: Operation, first_number: Union[int, float], second_number: Union[int, float]) -> Union[int, float]:
-    try:
-        return OPERATIONS[operation](first_number, second_number)
-    except KeyError:
+    if operation not in OPERATIONS:
         raise ValueError(f"Unsupported operation: {operation}")
+    return OPERATIONS[operation](first_number, second_number)
 
 def _validate_integer_input(number: int):
     if not isinstance(number, int):

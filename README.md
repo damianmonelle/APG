@@ -1,3 +1,4 @@
+markdown
 # Project README
 
 Welcome to our project! This README file is designed to provide a comprehensive overview of our project, its key features, and the latest updates.
@@ -42,68 +43,45 @@ This section documents all notable changes to this project.
 - `tests/test_app.py`
 - `tests/test_main.py`
 
-#### Changes Summary
+#### Summary
 - Enhanced project functionality.
 - Improved user experience with new resources and scripts.
 - Streamlined project structure for better organization and efficiency.
 - Updated project documentation and files, including `CHANGELOG.md`.
 - Added new features to `main.py` and `utils.py`.
 
-### Update: [Date]
-
-#### Changes
-- Updated `README.md`
-- Updated `docs/CHANGELOG.md`
-- Updated `main.py`
-- Updated `src/utils.py`
-- Updated `tests/test_main.py`
-
-### Update: [Date]
-
-#### Changes
-- Updated `main.py`
-- Updated `src/utils.py`
+### Update: YYYY-MM-DD
 
 #### Summary
-- Made changes to `main.py` and `src/utils.py`.
+- Updated files: `README.md`, `docs/CHANGELOG.md`, `main.py`, `src/utils.py`, `tests/test_main.py`
 
-### Update: [Date]
-
-#### Changes
-- Modified `main.py`
-- Modified `src/utils.py`
-- Modified `tests/test_main.py`
+### Update: YYYY-MM-DD
 
 #### Summary
-- Changes were made to `main.py`, `utils.py`, and `test_main.py` files.
+- Updated files: `main.py`, `src/utils.py`
 
-### Update: [current date]
+### Update: YYYY-MM-DD
 
-#### Main Changes
-- Updated `main.py`
-- Updated `test_main.py`
+#### Summary
+- Updated files: `main.py`, `src/utils.py`, `tests/test_main.py`
 
-### Update: [Insert Date Here]
+### Update: YYYY-MM-DD
 
-#### Changes
-- Updated `README.md`
-- Updated `docs/CHANGELOG.md`
-- Updated `main.py`
-- Updated `src/utils.py`
-- Updated `tests/test_main.py`
+#### Summary
+- Updated files: `main.py`, `test_main.py`
 
-#### Summary of changes
-The `README`, `CHANGELOG`, `main.py`, `utils.py`, and `test_main.py` files have all been updated.
-## Changelog (2024-12-04 22:52:53)
+### Update: YYYY-MM-DD
+
+#### Summary
+- Updated files: `README.md`, `docs/CHANGELOG.md`, `main.py`, `src/utils.py`, `tests/test_main.py`
+## Changelog (2024-12-04 23:04:35)
 # Changelog
 
-## Date: [insert date here]
+## Date: [Insert Date Here]
 
+### Changes:
 - Updated README.md
 - Updated docs/CHANGELOG.md
 - Updated main.py
-- Updated src/utils.py
 - Updated tests/test_main.py
-
-Summary of changes:
-- Changes were made to various files including README, documentation, main script, utility functions, and test files.
+- Added refinement_session_log.txt
