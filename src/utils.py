@@ -1,8 +1,4 @@
-The given Python code is already following good practices such as using type hints, docstrings for function explanation, and modular code design. However, we can further improve it by adding some more error handling and making the code more robust.
-
-Here's the improved version of the code:
-
-```python
+python
 # utils.py
 
 # This file contains utility functions that can be reused in different parts of the codebase.
@@ -39,6 +35,3 @@ def generate_unique_id(prefix: str = 'ID') -> str:
         raise ValueError("Prefix must be a string")
 
     return f'{prefix}_{uuid.uuid4().hex}'
-```
-
-In this improved version, the calculate_average function now checks if the input is a list and contains only numbers, and the generate_unique_id function checks if the prefix is a string. If these conditions are not met, a ValueError is raised with a descriptive error message. Also, the docstrings have been updated to include the information about the raised exceptions.

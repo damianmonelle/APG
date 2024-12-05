@@ -141,3 +141,11 @@ We encourage you to explore the project and its updates!
 
 ### Main.py
 - Updated main.py file with new features.
+## Changelog (2024-12-04 19:19:56)
+# Changelog
+
+## Date: [Date]
+
+### Changes:
+- Updated main.py
+- Updated utils.py
