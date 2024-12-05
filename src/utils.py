@@ -2,21 +2,24 @@ python
 import uuid
 from typing import List, Union
 
-# utils.py
-# This file contains utility functions that can be reused in different parts of the codebase.
+"""
+utils.py
 
-def calculate_average(numbers: Union[List[float], List[int]]) -> float:
+This module contains utility functions that can be reused in different parts of the codebase.
+"""
+
+def calculate_average(numbers: List[Union[float, int]]) -> float:
     """
-    Calculates the average of a list of numbers.
+    Calculate the average of a list of numbers.
 
-    Args:
-        numbers: List of numbers.
+    Parameters:
+    numbers (List[Union[float, int]]): List of numbers.
 
     Returns:
-        The average of the numbers.
+    float: The average of the numbers.
 
     Raises:
-        ValueError: If input is not a list or doesn't contain numbers only.
+    ValueError: If the input is not a list or doesn't contain only numbers.
     """
     if not isinstance(numbers, list) or not all(isinstance(i, (int, float)) for i in numbers):
         raise ValueError("Input must be a list containing numbers only.")
@@ -29,16 +32,16 @@ def calculate_average(numbers: Union[List[float], List[int]]) -> float:
 
 def generate_unique_id(prefix: str = 'ID') -> str:
     """
-    Generates a unique ID with a given prefix.
+    Generate a unique ID with a given prefix.
 
-    Args:
-        prefix: Prefix for the unique ID. Defaults to 'ID'.
+    Parameters:
+    prefix (str): Prefix for the unique ID. Defaults to 'ID'.
 
     Returns:
-        A unique ID.
+    str: A unique ID.
 
     Raises:
-        ValueError: If prefix is not a string.
+    ValueError: If the prefix is not a string.
     """
     if not isinstance(prefix, str):
         raise ValueError("Prefix must be a string.")

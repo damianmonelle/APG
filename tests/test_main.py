@@ -10,6 +10,9 @@ from math import sqrt
 from typing import Union
 
 class Operation(Enum):
+    """
+    Enum for arithmetic operations
+    """
     ADD = "add"
     MULTIPLY = "multiply"
 
@@ -25,10 +28,13 @@ def perform_operation(operation: Operation, first_number: Union[int, float], sec
     Returns:
         Union[int, float]: The result of the operation
     """
-    if operation == Operation.ADD:
-        return first_number + second_number
-    elif operation == Operation.MULTIPLY:
-        return first_number * second_number
+    operations = {
+        Operation.ADD: lambda: first_number + second_number,
+        Operation.MULTIPLY: lambda: first_number * second_number
+    }
+
+    if operation in operations:
+        return operations[operation]()
     else:
         raise ValueError(f"Unsupported operation: {operation}")
 
@@ -42,7 +48,10 @@ def is_even(number: int) -> bool:
     Returns:
         bool: True if the number is even, False otherwise
     """
-    return number % 2 == 0
+    if isinstance(number, int):
+        return number % 2 == 0
+    else:
+        raise ValueError("Input must be an integer")
 
 def is_prime(number: int) -> bool:
     """
@@ -54,17 +63,20 @@ def is_prime(number: int) -> bool:
     Returns:
         bool: True if the number is prime, False otherwise
     """
-    if number < 2:
-        return False
-    if number == 2 or number == 3:
-        return True
-    if number % 2 == 0 or number % 3 == 0:
-        return False
-    i = 5
-    w = 2
-    while i * i <= number:
-        if number % i == 0:
+    if isinstance(number, int):
+        if number < 2:
             return False
-        i += w
-        w = 6 - w
-    return True
+        if number == 2 or number == 3:
+            return True
+        if number % 2 == 0 or number % 3 == 0:
+            return False
+        i = 5
+        w = 2
+        while i * i <= number:
+            if number % i == 0:
+                return False
+            i += w
+            w = 6 - w
+        return True
+    else:
+        raise ValueError("Input must be an integer")
