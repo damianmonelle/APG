@@ -1,4 +1,3 @@
-```python
 def display_welcome_message() -> None:
     """Displays a welcome message."""
     print("Hello, World!")
@@ -9,4 +8,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-```

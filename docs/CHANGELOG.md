@@ -1,40 +1,42 @@
 markdown
 # Changelog
 
-This document records all significant changes made to this project. The format of this file follows the guidelines provided by [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+This document logs all significant updates to this project. The format is based on the guidelines from [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and the project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
 ### Added
-- Placeholder for the CHANGELOG.md file.
+- Created a placeholder for the CHANGELOG.md file.
 
 ### Changed
-- Code refactored for enhanced readability.
+- Refactored code for improved readability.
 
 ## [1.0.0] - YYYY-MM-DD
 
 ### Added
-- Initial version of the project implemented.
+- Implemented the initial version of the project.
 
 ### Changed
-- Code structure enhanced for improved maintainability.
-- Detailed comments included for better clarity and understanding.
+- Enhanced code structure for better maintainability.
+- Included detailed comments for clarity and understanding.
 
 ## [0.1.0] - YYYY-MM-DD
 
 ### Added
-- Project set up and configured.
+- Set up and configured the project.
 
 ### Changed
-- Project structure improved for better scalability and maintainability.
+- Improved project structure for enhanced scalability and maintainability.
 
 ## [0.0.1] - YYYY-MM-DD
 
 ### Added
-- Project proposed and conceptualized.
+- Proposed and conceptualized the project.
 
 ### Changed
-- Project's scope and objectives clarified.
+- Clarified the project's scope and objectives.
 
 ### Removed
 - Not applicable.
+
+Note: The versioning follows a system where the first number indicates a major release, the second number a minor release, and the third number a patch or bug fix.
