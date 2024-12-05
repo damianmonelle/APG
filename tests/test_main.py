@@ -16,6 +16,12 @@ class Operation(Enum):
     ADD = "add"
     MULTIPLY = "multiply"
 
+# Move operations dictionary outside the function for better performance
+OPERATIONS = {
+    Operation.ADD: lambda x, y: x + y,
+    Operation.MULTIPLY: lambda x, y: x * y
+}
+
 def perform_operation(operation: Operation, first_number: Union[int, float], second_number: Union[int, float]) -> Union[int, float]:
     """
     Perform the specified arithmetic operation on two numbers
@@ -28,15 +34,23 @@ def perform_operation(operation: Operation, first_number: Union[int, float], sec
     Returns:
         Union[int, float]: The result of the operation
     """
-    operations = {
-        Operation.ADD: lambda: first_number + second_number,
-        Operation.MULTIPLY: lambda: first_number * second_number
-    }
-
-    if operation in operations:
-        return operations[operation]()
+    if operation in OPERATIONS:
+        return OPERATIONS[operation](first_number, second_number)
     else:
         raise ValueError(f"Unsupported operation: {operation}")
+
+def _validate_integer_input(number: int):
+    """
+    Validate that the input is an integer
+
+    Args:
+        number (int): The number to validate
+
+    Raises:
+        ValueError: If the input is not an integer
+    """
+    if not isinstance(number, int):
+        raise ValueError("Input must be an integer")
 
 def is_even(number: int) -> bool:
     """
@@ -48,10 +62,8 @@ def is_even(number: int) -> bool:
     Returns:
         bool: True if the number is even, False otherwise
     """
-    if isinstance(number, int):
-        return number % 2 == 0
-    else:
-        raise ValueError("Input must be an integer")
+    _validate_integer_input(number)
+    return number % 2 == 0
 
 def is_prime(number: int) -> bool:
     """
@@ -63,20 +75,18 @@ def is_prime(number: int) -> bool:
     Returns:
         bool: True if the number is prime, False otherwise
     """
-    if isinstance(number, int):
-        if number < 2:
-            return False
-        if number == 2 or number == 3:
-            return True
-        if number % 2 == 0 or number % 3 == 0:
-            return False
-        i = 5
-        w = 2
-        while i * i <= number:
-            if number % i == 0:
-                return False
-            i += w
-            w = 6 - w
+    _validate_integer_input(number)
+    if number < 2:
+        return False
+    if number == 2 or number == 3:
         return True
-    else:
-        raise ValueError("Input must be an integer")
+    if number % 2 == 0 or number % 3 == 0:
+        return False
+    i = 5
+    w = 2
+    while i * i <= number:
+        if number % i == 0:
+            return False
+        i += w
+        w = 6 - w
+    return True

@@ -1,3 +1,4 @@
+python
 import uuid
 from typing import List, Union
 
@@ -20,8 +21,10 @@ def calculate_average(numbers: List[Union[float, int]]) -> float:
     Raises:
     ValueError: If the input is not a list or doesn't contain only numbers.
     """
-    if not isinstance(numbers, list) or not all(isinstance(i, (int, float)) for i in numbers):
-        raise ValueError("Input must be a list containing numbers only.")
+    if not isinstance(numbers, list):
+        raise ValueError("Input must be a list.")
+    elif not all(isinstance(i, (int, float)) for i in numbers):
+        raise ValueError("List must contain numbers only.")
         
     if not numbers:
         return 0.0
@@ -38,11 +41,5 @@ def generate_unique_id(prefix: str = 'ID') -> str:
 
     Returns:
     str: A unique ID.
-
-    Raises:
-    ValueError: If the prefix is not a string.
     """
-    if not isinstance(prefix, str):
-        raise ValueError("Prefix must be a string.")
-
     return f'{prefix}_{uuid.uuid4().hex}'
