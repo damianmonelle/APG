@@ -1,27 +1,27 @@
 markdown
 # Changelog
 
-All notable changes to this project will be documented in this file.
+This file documents all significant changes made to this project.
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
-and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+The structure of this file is based on the guidelines provided by [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to the principles of [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
 ### Added
-- Placeholder for CHANGELOG.md
+- Placeholder for the CHANGELOG.md file
 
 ### Changed
-- Code refactoring and readability
+- Code has been refactored for improved readability
 
 ## [1.0.0] - YYYY-MM-DD
 
 ### Added
-- Initial project implementation
+- Initial implementation of the project
 
 ### Changed
-- Code structure for enhanced maintainability
-- Detailed comments for improved clarity and understanding
+- Enhanced code structure for better maintainability
+- Added detailed comments for clarity and understanding
 
 ## [0.1.0] - YYYY-MM-DD
 
@@ -29,12 +29,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Project setup and configuration
 
 ### Changed
-- Basic project structure for better scalability and maintainability
+- Improved project structure for scalability and maintainability
 
 ## [0.0.1] - YYYY-MM-DD
 
 ### Added
-- Project proposal and concept
+- Project proposal and conceptualization
 
 ### Changed
-- Project scope and objectives for better clarity
+- Project scope and objectives clarified

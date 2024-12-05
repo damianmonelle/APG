@@ -4,7 +4,7 @@ Welcome to our project! This README file is designed to provide a comprehensive 
 
 ## Changelog
 
-### Update: December 4, 2024 - 00:48:42
+### Update: 2024-12-04 00:48:42
 
 **Modifications:**
 
@@ -14,22 +14,22 @@ Welcome to our project! This README file is designed to provide a comprehensive 
 - `tests/test_main.py`
 
 **Summary:** 
-Enhancements have been made to project requirements, main script, utility functions, and test cases to improve functionality.
+Enhanced project functionality.
 
-### Update: December 4, 2024 - 01:20:20
+### Update: 2024-12-04 01:20:20
 
 **New Additions:**
 
-- `src/utils.py`: Added new utility functions.
-- `resources/image.png`: Added new image resource.
-- `resources/style.css`: Added new styling sheet.
-- `src/app.py`: Added new application script.
-- `tests/test_app.py`: Added new test cases for the application script.
+- `src/utils.py`
+- `resources/image.png`
+- `resources/style.css`
+- `src/app.py`
+- `tests/test_app.py`
 
 **Summary:**
-New resources, utility functions, application script, and test cases have been added to enhance the user experience.
+Enhanced user experience with new resources and scripts.
 
-### Update: December 4, 2024 - 02:48:56
+### Update: 2024-12-04 02:48:56
 
 **Removals:**
 
@@ -43,9 +43,9 @@ New resources, utility functions, application script, and test cases have been a
 - `tests/test_main.py`
 
 **Summary:**
-Unnecessary files have been removed for a more streamlined project structure.
+Streamlined project structure.
 
-### Update: December 4, 2024 - 03:36:21
+### Update: 2024-12-04 03:36:21
 
 **New Additions:**
 
@@ -57,9 +57,9 @@ Unnecessary files have been removed for a more streamlined project structure.
 - tests/ directory
 
 **Summary:**
-New files and directories have been added to improve organization and efficiency.
+Improved project organization and efficiency.
 
-### Update: December 4, 2024 - 05:00:07
+### Update: 2024-12-04 05:00:07
 
 **Updates:**
 
@@ -70,26 +70,11 @@ New files and directories have been added to improve organization and efficiency
 - test_main.py file
 
 **Summary:**
-Various updates and improvements have been made to the project's files and documentation.
+Improved project documentation and files.
 
-### Update: December 4, 2024 - 05:06:51
+### Update: 2024-12-04 05:25:23
 
-**Updates:**
-
-- README.md
-- docs/CHANGELOG.md
-- main.py
-- src/utils.py
-- tests/test_main.py
-
-**Summary:**
-Various updates and improvements have been made to the project's files and documentation.
-
-We invite you to explore the project and its updates!
-
-### Update: December 4, 2024 - 05:12:48
-
-**Updates:**
+**Changes:**
 
 - README.md
 - docs/CHANGELOG.md
@@ -98,54 +83,48 @@ We invite you to explore the project and its updates!
 - tests/test_main.py
 
 **Summary:**
-Various updates and improvements have been made to the project's files and documentation.
+Updated project documentation and files.
 
-### Changelog: December 4, 2024 - 05:21:07
+### Update: 2024-12-04 18:25:48
 
-**Updates:**
+**Changes:**
 
-- README.md
 - docs/CHANGELOG.md
-- main.py
-- src/utils.py
-- tests/test_main.py
 
 **Summary:**
-Changes have been made to the project's README, changelog, main script, utility functions, and test files.
+Updated CHANGELOG.md.
 
-We encourage you to explore the project and its updates!
-## Changelog (2024-12-04 05:25:23)
+### Update: 2024-12-04 18:28:05
+
+**Changes:**
+
+- main.py
+
+**Summary:**
+Updated main.py with new features.
+
+### Update: 2024-12-04 19:19:56
+
+**Changes:**
+
+- main.py
+- utils.py
+
+**Summary:**
+Updated main.py and utils.py.
+## Changelog (2024-12-04 20:50:42)
 # Changelog
 
-## Date: [insert date here]
+## Date: [Current Date]
 
-### Changes:
-- Updated README.md
-- Updated docs/CHANGELOG.md
-- Updated main.py
-- Updated src/utils.py
-- Updated tests/test_main.py
+### Added
+- None
 
-### Summary:
-- Various updates and changes were made to the project's README, changelog, main script, utility functions, and test files.
-## Changelog (2024-12-04 18:25:48)
-# Changelog
-
-## Date: [Date]
-
-- Updated documentation in docs/CHANGELOG.md.
-## Changelog (2024-12-04 18:28:05)
-# Changelog
-
-## Date: [Date]
-
-### Main.py
-- Updated main.py file with new features.
-## Changelog (2024-12-04 19:19:56)
-# Changelog
-
-## Date: [Date]
-
-### Changes:
-- Updated main.py
-- Updated utils.py
+### Updated
+- Updated .gitignore file
+- Updated README.md file
+- Updated CHANGELOG.md file in docs folder
+- Updated main.py file
+- Updated requirements.txt file
+- Updated utils.py file in src folder
+- Updated test_main.py file in tests folder

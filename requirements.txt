@@ -1,3 +1,5 @@
 # Placeholder for requirements.txt
 
-# Add your implementation here.
+# Add your dependencies here. Each dependency should be on a new line. For example:
+# numpy==1.18.1
+# pandas==1.0.1

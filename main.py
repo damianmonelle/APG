@@ -1,15 +1,17 @@
 python
-def print_greeting_message():
+def display_welcome_message() -> None:
     """
-    Prints a greeting message to the console.
+    Function to display a welcome message to the user.
+    Outputs a string "Hello, World!" to the console.
     """
     print("Hello, World!")
 
-def main():
+def program_entry_point() -> None:
     """
-    Main function that serves as the entry point to the program.
+    The main function that serves as the entry point to the program.
+    Calls the function to display the welcome message.
     """
-    print_greeting_message()
+    display_welcome_message()
 
 if __name__ == "__main__":
-    main()
+    program_entry_point()

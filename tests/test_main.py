@@ -1,38 +1,38 @@
+python
 # arithmetic_operations.py
 
 """
 This module contains functions for performing basic arithmetic operations and checking number properties.
 """
 
-def add_two_numbers(first_number: float, second_number: float) -> float:
+from enum import Enum
+from math import sqrt
+from typing import Union
+
+class Operation(Enum):
+    ADD = "add"
+    MULTIPLY = "multiply"
+
+def perform_operation(operation: Operation, first_number: Union[int, float], second_number: Union[int, float]) -> Union[int, float]:
     """
-    Calculate the sum of two numbers
+    Perform the specified arithmetic operation on two numbers
 
     Args:
-        first_number (float): The first number
-        second_number (float): The second number
+        operation (Operation): The operation to perform
+        first_number (Union[int, float]): The first number
+        second_number (Union[int, float]): The second number
 
     Returns:
-        float: The sum of first_number and second_number
+        Union[int, float]: The result of the operation
     """
-    return first_number + second_number
+    if operation == Operation.ADD:
+        return first_number + second_number
+    elif operation == Operation.MULTIPLY:
+        return first_number * second_number
+    else:
+        raise ValueError(f"Unsupported operation: {operation}")
 
-
-def multiply_two_numbers(first_number: float, second_number: float) -> float:
-    """
-    Calculate the product of two numbers
-
-    Args:
-        first_number (float): The first number
-        second_number (float): The second number
-
-    Returns:
-        float: The product of first_number and second_number
-    """
-    return first_number * second_number
-
-
-def check_if_even(number: int) -> bool:
+def is_even(number: int) -> bool:
     """
     Check if a number is even
 
@@ -44,8 +44,7 @@ def check_if_even(number: int) -> bool:
     """
     return number % 2 == 0
 
-
-def check_if_prime(number: int) -> bool:
+def is_prime(number: int) -> bool:
     """
     Check if a number is prime
 
@@ -57,13 +56,15 @@ def check_if_prime(number: int) -> bool:
     """
     if number < 2:
         return False
-    for i in range(2, int(number ** 0.5) + 1):
+    if number == 2 or number == 3:
+        return True
+    if number % 2 == 0 or number % 3 == 0:
+        return False
+    i = 5
+    w = 2
+    while i * i <= number:
         if number % i == 0:
             return False
+        i += w
+        w = 6 - w
     return True
-
-# Changes made:
-# 1. Renamed function parameters to more descriptive names.
-# 2. Added type hints to function signatures and return types for better readability and understanding of the function.
-# 3. Consistent use of float for arithmetic operations to accommodate non-integer inputs.
-# 4. Indented the docstrings properly.
