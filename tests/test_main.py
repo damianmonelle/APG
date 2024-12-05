@@ -33,9 +33,9 @@ def perform_operation(operation: Operation, first_number: Union[int, float], sec
     Returns:
         Union[int, float]: The result of the operation.
     """
-    if operation in OPERATIONS:
+    try:
         return OPERATIONS[operation](first_number, second_number)
-    else:
+    except KeyError:
         raise ValueError(f"Unsupported operation: {operation}")
 
 def _validate_integer_input(number: int):
@@ -77,19 +77,7 @@ def is_prime(number: int) -> bool:
     _validate_integer_input(number)
     if number < 2:
         return False
-    if number == 2 or number == 3:
-        return True
-    if number % 2 == 0 or number % 3 == 0:
-        return False
-    i = 5
-    w = 2
-    while i * i <= number:
+    for i in range(2, int(number ** 0.5) + 1):
         if number % i == 0:
             return False
-        i += w
-        w = 6 - w
     return True
-
-if __name__ == "__main__":
-    # Test the functions here
-    pass

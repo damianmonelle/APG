@@ -2,12 +2,6 @@ python
 import uuid
 from typing import List, Union
 
-"""
-utils.py
-
-This module contains utility functions that can be reused in different parts of the codebase.
-"""
-
 def calculate_average(numbers: List[Union[float, int]]) -> float:
     """
     Calculate the average of a list of numbers.
@@ -25,8 +19,7 @@ def calculate_average(numbers: List[Union[float, int]]) -> float:
         raise ValueError("Input must be a list.")
     elif not all(isinstance(i, (int, float)) for i in numbers):
         raise ValueError("List must contain numbers only.")
-        
-    if not numbers:
+    elif not numbers:
         return 0.0
 
     return sum(numbers) / len(numbers)
